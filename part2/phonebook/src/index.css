@@ -1,0 +1,24 @@
+
+.alert {
+    font: 600 24px/36px 'sans-serif';
+    border: 1px solid currentColor;
+    border-radius: 4px;
+    color: #FFF;
+    z-index: 2;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    width: 30%;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.alert.success {
+    background-color: #086c0e;
+}
+
+.alert.error {
+    background-color: #b40909;
+}
